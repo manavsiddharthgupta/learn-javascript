@@ -14,7 +14,7 @@
 
 To get started with learning JavaScript using this repository, you can follow these steps:
 
-Clone the repository to your local machine using git clone https://github.com/your-username/learn-javascript.git.
+Clone the repository to your local machine using git clone `https://github.com/your-username/learn-javascript.git`.
 Navigate to the examples directory to see some interactive JavaScript examples.
 Check out the tutorials directory for some step-by-step tutorials on specific JavaScript topics.
 Try your hand at the exercises in the challenges directory to practice your skills.
@@ -22,7 +22,7 @@ Try your hand at the exercises in the challenges directory to practice your skil
 ### How to contribute
 
 - Click the "Fork" button to create a copy of the repository in your own GitHub account.
-- Clone the forked repository to your local machine using git clone https://github.com/your-username/learn-javascript.git.
+- Clone the forked repository to your local machine using git clone `https://github.com/your-username/learn-javascript.git`.
 - Create a new branch for your changes using git checkout -b your-branch-name. The new branch name should describe the changes you intend to make.
 - Add and commit your changes using git add <file> and git commit -m "Your commit message" commands. Be sure to write a clear and concise commit message that describes your changes.
 - Push your changes to your forked repository using git push origin your-branch-name.

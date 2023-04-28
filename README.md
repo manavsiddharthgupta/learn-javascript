@@ -48,6 +48,16 @@ To get started with learning JavaScript using this repository, you can follow th
 
 Good luck, and have fun!
 
+## Topics to cover
+
+### Phase 1 :
+
+- Introduction to JavaScript
+- Variables and Data Types
+- Operators
+- Flow control statements (If/Else, Switch, Loops)
+- Functions
+
 ## License
 
 This repository is licensed under the MIT License. See the LICENSE file for details.

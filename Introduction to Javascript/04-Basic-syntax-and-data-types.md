@@ -209,12 +209,11 @@ Comments are used to add explanatory notes to the code. In JavaScript, comments 
 
 // This is a single-line comment
 
-/_
+/*
 This is a
 multi-line
 comment
-_/
-
+*/
 ```
 
 ---

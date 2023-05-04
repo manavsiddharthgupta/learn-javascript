@@ -4,7 +4,9 @@ JavaScript is a programming language that enables web developers to create inter
 
 _JavaScript is a language used to make web pages more interactive and dynamic. When you load a page, your browser reads the JavaScript code and turns it into a language it can understand. Then it runs the code to make the web page do cool things like move, update, and react to user clicks. Think of it like a puppet master controlling a puppet - JavaScript is the puppet master and the web page is the puppet. With JavaScript, you can make your web pages dance, sing, and even tell jokes!_
 
-## <img src="./img/How-does-JavaScript-work.webp"  width="600" height="400">
+<p align="center">
+ <img src="./images/How-does-JavaScript-work.webp"  width="600" height="400">
+</p>
 
 ## **Compilation**
 

@@ -53,6 +53,16 @@ Once the compiled code is executed, the browser will render the resulting change
 
 Overall, this process of compilation and execution happens very quickly and seamlessly, allowing for dynamic and interactive web pages to be created with ease.
 
+# JavaScript is Interpreted, But May be Compiled by Engines and Tools
+
+JavaScript is an interpreted language, which means that the code is executed directly by an interpreter without the need for compilation. However, some JavaScript engines, like the V8 engine used in Google Chrome, may use a Just-in-Time (JIT) compiler to optimize the code at runtime. This means that the engine can analyze the code and generate optimized machine code on the fly, which can improve performance.
+
+In addition, there are tools like Babel that can be used to transpile modern JavaScript code to an older version of the language that is supported by more browsers. This allows developers to write code using the latest language features and still have it work on older browsers that may not support those features.
+
+So while JavaScript is primarily an interpreted language, but it is compiled by engines and tools for performance or compatibility reasons.
+
+The **ECMAScript** specification itself does not specify or require that JavaScript code be compiled but they does require early error checking in JavaScript code.
+
 # Why Compilation Important
 
 During the compilation phase, the JavaScript engine performs early error checking and determines the appropriate scope for variables in the code. This helps to ensure that the code is syntactically correct and can be executed efficiently.
@@ -82,6 +92,8 @@ So, in summary, the compilation phase is important because it helps to catch err
 ### **Key Concepts :**
 
 **An Abstract Syntax Tree (AST)** is a hierarchical data structure that represents the structure of a program in a way that is independent of the programming language used to write the program. It is used by compilers, interpreters, and other tools to analyze and transform source code. The AST is a more abstract and concise representation of the source code, which makes it easier to reason about and manipulate.
+
+**ECMAScript** is a standard for scripting languages, and it is the specification that defines the syntax, semantics, and features of the JavaScript programming language. ECMAScript is maintained by the European Computer Manufacturers Association (ECMA). This standard is used by web browsers to implement the JavaScript language, and it is also used by other environments like Node.js for server-side JavaScript programming. ECMAScript provides a standardized way for developers to write JavaScript code that can be executed consistently across different platforms and environments.
 
 ---
 

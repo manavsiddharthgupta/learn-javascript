@@ -20,13 +20,13 @@ Compilation phase is an important part of how JavaScript works. When a web page 
 
 In this step, the JavaScript code is broken down into individual units of meaning called tokens. These tokens can be things like keywords, identifiers, operators, or punctuation. For example, consider the following line of JavaScript code:
 
-```
+```js
 var myVariable = 10;
 ```
 
 During tokenization, this line of code would be broken down into the following tokens:
 
-```
+```js
 [var] [myVariable] [=] [10] [;]
 ```
 
@@ -69,7 +69,7 @@ During the compilation phase, the JavaScript engine performs early error checkin
 
 For example, consider the following code:
 
-```
+```js
 function myFunction() {
   var myVariable = 10;
   console.log(myVariable);

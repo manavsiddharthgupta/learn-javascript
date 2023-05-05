@@ -6,7 +6,7 @@ The JavaScript has a simple syntax and supports a variety of data types.
 
 Variables are used to store values. A variable is declared using the **_var_**, **_let_**, or **_const_** keyword, followed by a variable name, and an optional initial value. For example:
 
-```
+```js
 var myName = "John";
 let myAge = 25;
 myAge = 21; // --> we can change the value of a variable
@@ -30,7 +30,7 @@ In the above example,
 
 _Here are some examples of valid variable names:_
 
-```
+```js
 var name = "John";
 var age = 30;
 var _count = 10;
@@ -40,7 +40,7 @@ var firstName = "Jane";
 
 _And here are some examples of invalid variable names:_
 
-```
+```js
 var 2ndName = "Smith"; // --> cannot start with a number
 var my-var = "test"; // --> cannot contain a hyphen
 var function = "hello"; // --> cannot use a reserved keyword as a variable name
@@ -56,9 +56,9 @@ JavaScript supports the following basic data types:
 
 In JavaScript, numbers can be integers or floating-point numbers. For example:
 
-```
-var num1 = 10;     // --> integer
-var num2 = 3.14;   // --> floating-point number
+```js
+var num1 = 10; // --> integer
+var num2 = 3.14; // --> floating-point number
 ```
 
 ---
@@ -67,14 +67,14 @@ var num2 = 3.14;   // --> floating-point number
 
 Strings are used to represent text in JavaScript. A string is enclosed in single or double quotes. For example:
 
-```
-var name = "John";   // --> using double quotes
-var message = 'Hello, World!';  // --> using single quotes
+```js
+var name = "John"; // --> using double quotes
+var message = "Hello, World!"; // --> using single quotes
 ```
 
 **String indexing** refers to accessing individual characters in a string by their position or index.
 
-```
+```js
 let str = "hello";
 // string --> h e l l o
 // index  --> 0 1 2 3 4
@@ -86,7 +86,7 @@ console.log(str[4]); // outputs o
 
 **1. trim()** - It returns a new string with the whitespace characters removed from both the beginning and the end and does not modify the original string.
 
-```
+```js
 let str = "    Hello, World!    ";
 let trimmedStr = str.trim();
 
@@ -95,35 +95,35 @@ console.log(trimmedStr); // outputs "Hello, World!"
 
 **2. toUpperCase()** - returns a string with all characters converted to uppercase.
 
-```
+```js
 const str = "hello";
 console.log(str.toUpperCase()); // outputs "HELLO"
 ```
 
 **3. toLowerCase()** - returns a string with all characters converted to lowercase.
 
-```
+```js
 const str = "HELLO";
 console.log(str.toLowerCase()); // outputs "hello"
 ```
 
 **4. slice()**: returns a portion of a string based on the specified start and end index.
 
-```
+```js
 const str = "hello world";
 console.log(str.slice(0, 5)); // outputs "hello"
 ```
 
 **5. length**: returns the length of a string.
 
-```
+```js
 const str = "hello";
 console.log(str.length); // outputs 5
 ```
 
 **6. concat()**: joins two or more strings together.
 
-```
+```js
 const str1 = "hello";
 const str2 = "world";
 console.log(str1.concat(" ", str2)); // outputs "hello world"
@@ -135,7 +135,7 @@ Template strings, also known as `template literals`, are a way to create strings
 
 Template strings are enclosed in backticks (`) instead of single or double quotes. They allow for embedding variables and expressions directly within the string using ${...} syntax. For example:
 
-```
+```js
 const name = "Alice";
 console.log(`Hello, ${name}!`); // outputs Hello, Alice!
 ```
@@ -148,9 +148,9 @@ Template strings can also span multiple lines without the need for escape charac
 
 A boolean value represents a logical value of either true or false. For example:
 
-```
-var isStudent = true;   // true
-var isWorking = false;  // false
+```js
+var isStudent = true; // true
+var isWorking = false; // false
 ```
 
 ---
@@ -159,7 +159,7 @@ var isWorking = false;  // false
 
 The undefined data type represents a variable that has not been assigned a value. For example:
 
-```
+```js
 let x;
 console.log(typeof x); // outputs undefined
 ```
@@ -170,10 +170,10 @@ console.log(typeof x); // outputs undefined
 
 The null value represents the intentional absence of any object value. For example:
 
-```
+```js
 let x = null;
 console.log(typeof x); // what will be the output?
-x = "10"
+x = "10";
 console.log(typeof x); // what will be the output?
 ```
 
@@ -183,19 +183,19 @@ console.log(typeof x); // what will be the output?
 
 Objects are used to represent complex data structures in JavaScript. An object is a collection of properties, where each property is a key-value pair. For example:
 
-```
+```js
 let person = {
-    name: "John",
-    age: 25,
-    address: {
-        street: "123 Main St",
-        city: "New York"
-    }
+  name: "John",
+  age: 25,
+  address: {
+    street: "123 Main St",
+    city: "New York",
+  },
 };
 
 console.log(typeof person); // outputs objects
 
-let arr = [1,2,3,4,5];
+let arr = [1, 2, 3, 4, 5];
 console.log(typeof arr); // what will be the output?
 ```
 
@@ -206,7 +206,6 @@ console.log(typeof arr); // what will be the output?
 Comments are used to add explanatory notes to the code. In JavaScript, comments can be single-line or multi-line. For example:
 
 ```
-
 // This is a single-line comment
 
 /*
@@ -234,7 +233,7 @@ comment
 - Variables declared with var can be re-declared and updated within the same scope.
 - If a var variable is declared outside of a function, it becomes a global variable and can be accessed anywhere in the code, including other functions and files.
 
-```
+```js
 function example() {
   var x = 5;
   if (true) {
@@ -253,7 +252,7 @@ example();
 - let variables cannot be re-declared within the same block scope, but their value can be updated.
 - let variables are commonly used in for-loops to avoid unintended consequences caused by var.
 
-```
+```js
 function example() {
   let x = 5;
   if (true) {

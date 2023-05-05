@@ -4,11 +4,14 @@ Hey there! Welcome to this document about the differences between JavaScript and
 
 # Topics Covered in this Document
 
-- [JavaScript is Interpreted, Not Compiled](#javaScript-is-interpreted,-not-compiled)
-- [JavaScript is Dynamically Typed](#javaScript-is-dynamically-typed)
-- [Prototypal Inheritance in JavaScript](#prototypal-inheritance-in-javaScript)
-- [First-Class Functions](#first-class-functions)
-- [JavaScript Supports Asynchronous Programming](#javaScript-supports-asynchronous-programming)
+- [JavaScript vs Other Programming Languages](#javascript-vs-other-programming-languages)
+- [Topics Covered in this Document](#topics-covered-in-this-document)
+- [The Showdown Begins: JavaScript vs Other Programming Languages](#the-showdown-begins-javascript-vs-other-programming-languages)
+  - [1. JavaScript is Interpreted, Not Compiled](#1-javascript-is-interpreted-not-compiled)
+  - [2. JavaScript is Dynamically Typed](#2-javascript-is-dynamically-typed)
+  - [3. Prototypal Inheritance in JavaScript](#3-prototypal-inheritance-in-javascript)
+  - [4. First-Class Functions](#4-first-class-functions)
+  - [5. JavaScript Supports Asynchronous Programming](#5-javascript-supports-asynchronous-programming)
 
 ---
 
@@ -24,7 +27,7 @@ Some programming languages are compiled, which means that they're translated int
 
 In some programming languages, you have to declare the data type of a variable before you can use it. But in JavaScript, you don't have to do that - you can just create a variable and start using it right away.
 
-```
+```js
 let myVariable = "Hello World"; // myVariable is a string
 myVariable = 42; // myVariable is now a number
 myVariable = true; // myVariable is now a boolean

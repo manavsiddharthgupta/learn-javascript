@@ -8,6 +8,21 @@ _JavaScript is a language used to make web pages more interactive and dynamic. W
  <img src="./images/How-does-JavaScript-work.webp"  width="600" height="400">
 </p>
 
+## **Table of Contents**
+
+- [How JavaScript Works](#how-javascript-works)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Compilation**](#compilation)
+    - [1. Tokenization or Lexing](#1-tokenization-or-lexing)
+    - [2. Parsing](#2-parsing)
+    - [3. Code Generation](#3-code-generation)
+  - [**Execution**](#execution)
+- [JavaScript is Interpreted, But May be Compiled by Engines and Tools](#javascript-is-interpreted-but-may-be-compiled-by-engines-and-tools)
+- [Why Compilation Important](#why-compilation-important)
+- [Set Up Your Development Environment](#set-up-your-development-environment)
+  - [Alternative Options](#alternative-options)
+  - [**Key Concepts**](#key-concepts)
+
 ## **Compilation**
 
 Compilation phase is an important part of how JavaScript works. When a web page is loaded, the browser reads the JavaScript code and processes it through a series of steps to convert it into machine-readable code that can be executed by the computer.
@@ -89,14 +104,6 @@ So, in summary, the compilation phase is important because it helps to catch err
 
 ---
 
-### **Key Concepts :**
-
-**An Abstract Syntax Tree (AST)** is a hierarchical data structure that represents the structure of a program in a way that is independent of the programming language used to write the program. It is used by compilers, interpreters, and other tools to analyze and transform source code. The AST is a more abstract and concise representation of the source code, which makes it easier to reason about and manipulate.
-
-**ECMAScript** is a standard for scripting languages, and it is the specification that defines the syntax, semantics, and features of the JavaScript programming language. ECMAScript is maintained by the European Computer Manufacturers Association (ECMA). This standard is used by web browsers to implement the JavaScript language, and it is also used by other environments like Node.js for server-side JavaScript programming. ECMAScript provides a standardized way for developers to write JavaScript code that can be executed consistently across different platforms and environments.
-
----
-
 # Set Up Your Development Environment
 
 To start developing with JavaScript, you'll need to set up your development environment. This involves installing a text editor or an integrated development environment (IDE) and a web browser.
@@ -115,3 +122,9 @@ Once you have installed the necessary tools and set up your development environm
 _If you don't want to set up a development environment on your local machine, there are several online options available. One popular option is **CodeSandbox**, which provides a web-based integrated development environment (IDE) for JavaScript development_.
 
 ---
+
+## **Key Concepts**
+
+**An Abstract Syntax Tree (AST)** is a hierarchical data structure that represents the structure of a program in a way that is independent of the programming language used to write the program. It is used by compilers, interpreters, and other tools to analyze and transform source code. The AST is a more abstract and concise representation of the source code, which makes it easier to reason about and manipulate.
+
+**ECMAScript** is a standard for scripting languages, and it is the specification that defines the syntax, semantics, and features of the JavaScript programming language. ECMAScript is maintained by the European Computer Manufacturers Association (ECMA). This standard is used by web browsers to implement the JavaScript language, and it is also used by other environments like Node.js for server-side JavaScript programming. ECMAScript provides a standardized way for developers to write JavaScript code that can be executed consistently across different platforms and environments.

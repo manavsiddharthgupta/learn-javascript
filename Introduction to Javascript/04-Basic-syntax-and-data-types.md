@@ -2,6 +2,25 @@
 
 The JavaScript has a simple syntax and supports a variety of data types.
 
+## **Table of Contents**
+
+- [Basic Syntax And Data Types](#basic-syntax-and-data-types)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Variables**](#variables)
+  - [**Data Types**](#data-types)
+    - [**Numbers:**](#numbers)
+    - [**Strings:**](#strings)
+    - [**Booleans:**](#booleans)
+    - [**Undefined:**](#undefined)
+    - [**Null:**](#null)
+    - [**Objects:**](#objects)
+  - [**Comments**](#comments)
+  - [**var vs let and const**](#var-vs-let-and-const)
+    - [**var :**](#var-)
+    - [**let :**](#let-)
+    - [**const :**](#const-)
+  - [**Key Concepts**](#key-concepts)
+
 ## **Variables**
 
 Variables are used to store values. A variable is declared using the **_var_**, **_let_**, or **_const_** keyword, followed by a variable name, and an optional initial value. For example:
@@ -217,14 +236,6 @@ comment
 
 ---
 
-### **Key Concepts :**
-
-**typeof null** returns "object" in JavaScript. This is a known quirk of the language and is due to historical reasons. It's not technically correct to say that null is an object, but it's a common mistake that's made because of the way typeof works in JavaScript.
-
-**Functions and Arrays** are objects in JavaScript.
-
----
-
 ## **var vs let and const**
 
 ### **var :**
@@ -269,3 +280,13 @@ example();
 
 - const variables cannot be re-declared or updated within the same block scope, meaning their value remains constant throughout the program.
 - const is commonly used for values that are not expected to change, such as mathematical constants or configuration settings.
+
+---
+
+## **Key Concepts**
+
+**typeof null** returns "object" in JavaScript. This is a known quirk of the language and is due to historical reasons. It's not technically correct to say that null is an object, but it's a common mistake that's made because of the way typeof works in JavaScript.
+
+**Functions and Arrays** are objects in JavaScript.
+
+---

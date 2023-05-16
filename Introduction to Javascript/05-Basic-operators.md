@@ -1,6 +1,18 @@
 # Basic Operators
 
+## **Introduction**
+
 Operators in JavaScript are symbols or keywords used to perform operations on values or variables. In this section, we will cover some of the basic operators in JavaScript.
+
+## **Table of Contents**
+
+- [Basic Operators](#basic-operators)
+  - [**Introduction**](#introduction)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Arithmetic Operators**](#arithmetic-operators)
+  - [**Assignment Operators**](#assignment-operators)
+  - [**Comparison Operators**](#comparison-operators)
+  - [**Logical Operators**](#logical-operators)
 
 ## **Arithmetic Operators**
 

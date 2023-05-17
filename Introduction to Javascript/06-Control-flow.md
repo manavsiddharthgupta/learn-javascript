@@ -174,10 +174,24 @@ for (let obj in object) {
 
 The `for...of` loop allows you to iterate over iterable objects such as arrays, strings, and more.
 
+Here is the syntax for the `for...of` loop:
+
 ```js
 for (variable of iterable) {
   // code to be executed for each element
 }
+```
+
+example:
+
+```js
+const array = ["apple", "banana", "orange"];
+
+for (let fruit of array) {
+  console.log(fruit);
+}
+
+// what will be the output?
 ```
 
 ---

@@ -18,7 +18,7 @@ console.log(num2); // Output: 5 (num2 is still 5)
 ```
 
 <p align="center">
- <img src="./images/primitive.png"  width="700" height="400">
+ <img src="./images/primitive_arr.png"  width="700" height="400">
 </p>
 
 ## **Reference Data Types**
@@ -39,7 +39,7 @@ console.log(arr2); // Output: [1, 2, 3, 4] (arr2 is also affected)
 ```
 
 <p align="center">
- <img src="./images/reference.png"  width="700" height="400">
+ <img src="./images/reference_arr.png"  width="700" height="400">
 </p>
 
 ---

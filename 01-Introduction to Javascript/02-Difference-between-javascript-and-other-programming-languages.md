@@ -2,17 +2,6 @@
 
 Hey there! Welcome to this document about the differences between JavaScript and other programming languages. If you're new to programming, this is a great place to start. And if you're a seasoned pro, stick around anyway, because I guarantee you'll learn something new.
 
-## **Table of Contents**
-
-- [JavaScript vs Other Programming Languages](#javascript-vs-other-programming-languages)
-  - [**Table of Contents**](#table-of-contents)
-- [The Showdown Begins: JavaScript vs Other Programming Languages](#the-showdown-begins-javascript-vs-other-programming-languages)
-  - [**1. JavaScript is Interpreted, Not Compiled**](#1-javascript-is-interpreted-not-compiled)
-  - [**2. JavaScript is Dynamically Typed**](#2-javascript-is-dynamically-typed)
-  - [**3. Prototypal Inheritance in JavaScript**](#3-prototypal-inheritance-in-javascript)
-  - [**4. First-Class Functions**](#4-first-class-functions)
-  - [**5. JavaScript Supports Asynchronous Programming**](#5-javascript-supports-asynchronous-programming)
-
 # The Showdown Begins: JavaScript vs Other Programming Languages
 
 Okay, let's get down to business. What sets JavaScript apart from other programming languages?

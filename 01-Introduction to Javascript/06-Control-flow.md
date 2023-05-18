@@ -4,26 +4,6 @@
 
 Control flow in JavaScript refers to the way statements are executed in a program. It helps us make decisions, repeat code, and handle errors. Understanding control flow is important for writing good JavaScript code. This guide will cover the main control flow structures in JavaScript and provide examples for better understanding.
 
-## **Table of Contents**
-
-- [JavaScript Control Flow](#javascript-control-flow)
-  - [**Introduction**](#introduction)
-  - [**Table of Contents**](#table-of-contents)
-  - [**Conditional Statements**](#conditional-statements)
-    - [1. **if statement**](#1-if-statement)
-    - [2. **if...else statement**](#2-ifelse-statement)
-    - [3. **if...else if ...else statement**](#3-ifelse-if-else-statement)
-    - [4. **switch statement**](#4-switch-statement)
-  - [**Loops**](#loops)
-    - [1. **for loop**](#1-for-loop)
-    - [2. **while loop**](#2-while-loop)
-    - [3. **do...while loop**](#3-dowhile-loop)
-    - [4. **for...in loop**](#4-forin-loop)
-    - [5. **for...of loop**](#5-forof-loop)
-  - [**Exception Handling**](#exception-handling)
-    - [1. **try...catch statement**](#1-trycatch-statement)
-    - [2. **finally block**](#2-finally-block)
-
 ## **Conditional Statements**
 
 ### 1. **if statement**

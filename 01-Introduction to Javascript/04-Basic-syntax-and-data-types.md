@@ -2,25 +2,6 @@
 
 The JavaScript has a simple syntax and supports a variety of data types.
 
-## **Table of Contents**
-
-- [Basic Syntax And Data Types](#basic-syntax-and-data-types)
-  - [**Table of Contents**](#table-of-contents)
-  - [**Variables**](#variables)
-  - [**Data Types**](#data-types)
-    - [**Numbers:**](#numbers)
-    - [**Strings:**](#strings)
-    - [**Booleans:**](#booleans)
-    - [**Undefined:**](#undefined)
-    - [**Null:**](#null)
-    - [**Objects:**](#objects)
-  - [**Comments**](#comments)
-  - [**var vs let and const**](#var-vs-let-and-const)
-    - [**var :**](#var-)
-    - [**let :**](#let-)
-    - [**const :**](#const-)
-  - [**Key Concepts**](#key-concepts)
-
 ## **Variables**
 
 Variables are used to store values. A variable is declared using the **_var_**, **_let_**, or **_const_** keyword, followed by a variable name, and an optional initial value. For example:

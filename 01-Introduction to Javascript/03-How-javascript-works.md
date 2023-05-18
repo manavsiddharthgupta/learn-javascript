@@ -8,21 +8,6 @@ _JavaScript is a language used to make web pages more interactive and dynamic. W
  <img src="./images/How-does-JavaScript-work.webp"  width="600" height="400">
 </p>
 
-## **Table of Contents**
-
-- [How JavaScript Works](#how-javascript-works)
-  - [**Table of Contents**](#table-of-contents)
-  - [**Compilation**](#compilation)
-    - [1. Tokenization or Lexing](#1-tokenization-or-lexing)
-    - [2. Parsing](#2-parsing)
-    - [3. Code Generation](#3-code-generation)
-  - [**Execution**](#execution)
-- [JavaScript is Interpreted, But May be Compiled by Engines and Tools](#javascript-is-interpreted-but-may-be-compiled-by-engines-and-tools)
-- [Why Compilation Important](#why-compilation-important)
-- [Set Up Your Development Environment](#set-up-your-development-environment)
-  - [Alternative Options](#alternative-options)
-  - [**Key Concepts**](#key-concepts)
-
 ## **Compilation**
 
 Compilation phase is an important part of how JavaScript works. When a web page is loaded, the browser reads the JavaScript code and processes it through a series of steps to convert it into machine-readable code that can be executed by the computer.

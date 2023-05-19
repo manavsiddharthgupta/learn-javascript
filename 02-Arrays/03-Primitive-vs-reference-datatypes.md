@@ -71,9 +71,9 @@ let originalArray = [1, 2, 3];
 let clonedArray = [].concat(originalArray); // [] is an empty array
 ```
 
-### **Note:**
+### **Shallow vs Deep Copying**
 
-**All of these methods create a new array that is a clone of the original array. It's important to note that these methods create a shallow copy, meaning that if the original array contains reference types (objects or arrays), the cloned array will still reference the same objects. If you need a deep copy (cloning the contents of nested objects as well), additional steps are required.**
+All of these methods create a new array that is a clone of the original array. It's important to note that these methods create a shallow copy, meaning that if the original array contains reference types (objects or arrays), the cloned array will still reference the same objects. If you need a deep copy (cloning the contents of nested objects as well), additional steps are required.
 
 ```js
 let originalArray = [

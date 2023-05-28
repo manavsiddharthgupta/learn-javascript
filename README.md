@@ -4,11 +4,16 @@
 
 # Table of Contents
 
-- [Getting Started](#getting-started)
-- [Contributing](#how-to-contribute)
-- [Steps to create a JavaScript notes](#here-are-some-steps-to-create-a-JavaScript-notes)
-- [Tips to make your notes engaging and fun](#here-are-some-steps-to-create-a-JavaScript-notes)
-- [License](#license)
+- [Learn JavaScript](#learn-javascript)
+- [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [How to contribute](#how-to-contribute)
+  - [Here are some steps to create a JavaScript notes](#here-are-some-steps-to-create-a-javascript-notes)
+  - [Here are some tips to make your notes engaging and fun:](#here-are-some-tips-to-make-your-notes-engaging-and-fun)
+  - [Topics to cover](#topics-to-cover)
+    - [Phase 1 :](#phase-1-)
+    - [Phase 2 :](#phase-2-)
+  - [License](#license)
 
 ## Getting Started
 
@@ -56,7 +61,12 @@ Good luck, and have fun!
 - Variables and Data Types
 - Operators
 - Flow control statements (If/Else, Switch, Loops)
+
+### Phase 2 :
+
+- Arrays
 - Functions
+- Classes
 
 ## License
 

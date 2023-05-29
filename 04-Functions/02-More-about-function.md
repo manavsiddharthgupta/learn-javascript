@@ -197,6 +197,8 @@ const person = { firstName: "John", lastName: "Doe", sex: "Male", age: 25 };
 greet(person); // Output: Hello, my name is John Doe. Male and 25 years old.
 ```
 
+Learn more about [destructuring](../03-Objects/05-Objects-and-arrays.md#desctructuring).
+
 ## Function Return Function
 
 As we can return any data type from a function, it is also possible to return a function from a function. A function that returns another function is called a higher-order function.

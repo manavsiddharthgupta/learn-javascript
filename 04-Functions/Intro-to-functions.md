@@ -115,4 +115,4 @@ During the compilation phase, JavaScript scans the code and hoists function decl
 
 It's worth noting that this behavior applies only to function declarations, not to function expressions or arrow functions. Those must be defined before they are called, as they are not hoisted.
 
-If you want to learn more about Hoisting. Click Here
+It's ok if you didn't understand right now. Hoisting is an advance topic. We have covered in Advance Javascript. If you want to learn more about Hoisting. Click [Here]()

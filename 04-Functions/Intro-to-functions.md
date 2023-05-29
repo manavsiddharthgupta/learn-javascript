@@ -62,6 +62,57 @@ let result = add(2, 3);
 console.log(result); // 5
 ```
 
+### **Function Expression**
+
+What we have learn till now is Function Declaration.
+
+In additional to Function Declaration, JavaScript also supports function expressions. A function expression is a function that is assigned to a variable or a constant.
+
+```js
+const multiply = function (a, b) {
+  return a * b;
+};
+```
+
+In this example, the `multiply` variable is assigned a function expression. It can be invoked and used just like any other function.
+
+### **Arrow Function**
+
+ES6 (ECMAScript 2015) introduced arrow functions, which provide a more concise syntax for defining functions. They are particularly useful for writing shorter, one-line functions.
+
+```js
+const square = (x) => x * x;
+
+const addtwonum = (num1, num2) => {
+  return num1 + num2;
+};
+```
+
+The arrow function `square` takes a parameter `x` and returns its square.
+The arrow function `addtwonum` takes two parameter `num1` and `num2` and returns after adding both number.
+
+Arrow functions have a more implicit syntax and do not create their own this value, making them convenient for certain programming scenarios. You will use Arrow function more that Function Expression.
+
 ## Conclusion
 
 Functions are a fundamental part of JavaScript. They are used to group a set of instructions and make them work together to do something specific. They are also useful for reusing code, keeping things organized, and doing different tasks in separate parts.
+
+### **Note**
+
+```js
+greet(); // what will happen?
+
+function greet() {
+  console.log("Hi, how are you");
+}
+```
+
+when you can call a function before its actual declaration in the code, and JavaScript will still execute the function without throwing an error. **This behaviour specific to function declarations and does not apply to function expressions and arrow functions.**
+
+**_Function declarations are hoisted._**
+
+During the compilation phase, JavaScript scans the code and hoists function declarations to the top, allowing them to be called from anywhere within the same scope, even before their actual declaration in the code.
+
+It's worth noting that this behavior applies only to function declarations, not to function expressions or arrow functions. Those must be defined before they are called, as they are not hoisted.
+
+If you want to learn more about Hoisting. Click Here

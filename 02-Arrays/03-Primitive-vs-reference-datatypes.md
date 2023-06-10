@@ -17,9 +17,9 @@ console.log(num1); // Output: 10
 console.log(num2); // Output: 5 (num2 is still 5)
 ```
 
-<p align="center">
+<div align="center">
  <img src="./images/primitive_arr.png"  width="700" height="400">
-</p>
+</div>
 
 ## **Reference Data Types**
 
@@ -38,9 +38,9 @@ console.log(arr1); // Output: [1, 2, 3, 4]
 console.log(arr2); // Output: [1, 2, 3, 4] (arr2 is also affected)
 ```
 
-<p align="center">
+<div align="center">
  <img src="./images/reference_arr.png"  width="700" height="400">
-</p>
+</div>
 
 ---
 
@@ -125,6 +125,6 @@ Using const to declare an array in JavaScript is a common practice because it pr
 - Using `const` makes the intention clear that the array reference should remain constant throughout the code. It helps improve code readability and makes it easier for other developers to understand that the array should not be reassigned.
 - Declaring an array with `const` helps prevent accidental reassignment of the entire array. If you attempt to assign a new array to a const-declared array variable, it will result in a syntax error. This can help catch errors and enforce the intention to keep the reference constant.
 
-<p align="center">
+<div align="center">
  <img src="./images/use_const_to_create_array.png"  width="750" height="400">
-</p>
+</div>

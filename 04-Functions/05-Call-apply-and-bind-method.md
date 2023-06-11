@@ -55,7 +55,6 @@ const person2 = {
   name: "Max Tennyson",
 };
 
-person1.aboutme.call(person1); // Output: Hello, I am Ben Tennyson!
 person1.aboutme.call(person2); // Output: Hello, I am Max Tennyson!
 ```
 

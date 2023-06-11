@@ -158,6 +158,8 @@ In the above example, we have used the `bind` method to create a new function `a
 
 In contrast, the `call` and `apply` methods immediately invoke the function. The `bind` method is useful for creating function wrappers.
 
+---
+
 Let's see if you can get the output of the following code:
 
 ```js

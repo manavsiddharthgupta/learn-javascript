@@ -170,5 +170,27 @@ const obj = {
   },
 };
 
-obj.aboutme.call(); // what is the output?
+obj.aboutme.call(); // what will be the output?
+const aboutmefunc = obj.aboutme;
+aboutmefunc(); // what will be the output?
+```
+
+If you think the output will be `Hello, I am Alex Smith!` for both the cases, you are wrong. The first case will throw an error because the `this` value is not set.
+
+In second case the code will output `Hello, I am undefined!` because the `aboutme` function is extracted from the `obj` object and assigned to the variable `aboutmefunc`. When the `aboutmefunc` is called using `aboutmefunc()`, it is executed in the global scope where the `this` keyword refers to the global object (e.g., window in a browser or global in Node.js).
+
+Since the `aboutmefunc` is invoked without any object context, `this.name` inside the `aboutme` function will be `undefined`. Therefore, the output will be `Hello, I am undefined!`.
+Its is same as the following code:
+
+```js
+const aboutmefunc = function () {
+  console.log(`Hello, I am ${this.name}!`);
+};
+```
+
+This is the reason why we use `bind` method to create a new function with a fixed `this` value. The `bind` method will set the `this` value to the object passed as the first argument.
+
+```js
+const aboutmefunc = obj.aboutme.bind(obj);
+aboutmefunc(); // Output: Hello, I am Alex Smith!
 ```

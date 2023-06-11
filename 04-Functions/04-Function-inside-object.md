@@ -183,3 +183,5 @@ const obj = {
 
 obj.sayHello(); // what will be the output?
 ```
+
+**Note** : The value of `this` is determined dynamically at runtime, depending on how a function is invoked.

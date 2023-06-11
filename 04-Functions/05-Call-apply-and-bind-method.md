@@ -55,7 +55,6 @@ const person2 = {
   name: "Max Tennyson",
 };
 
-person1.aboutme.call(person1); // Output: Hello, I am Ben Tennyson!
 person1.aboutme.call(person2); // Output: Hello, I am Max Tennyson!
 ```
 
@@ -158,6 +157,8 @@ aboutmePerson2(); // Output: Hello, I am Kevin Levin! My hobby is Biking. My fav
 In the above example, we have used the `bind` method to create a new function `aboutmePerson1` with a fixed `this` value of `person1`. The `bind` method also passes the `hobby` and `artist` arguments to the `aboutme` function. The `aboutmePerson1` function can be invoked later.
 
 In contrast, the `call` and `apply` methods immediately invoke the function. The `bind` method is useful for creating function wrappers.
+
+---
 
 Let's see if you can get the output of the following code:
 

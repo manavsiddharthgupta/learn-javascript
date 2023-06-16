@@ -144,7 +144,7 @@ iteration 4: accumulator = 24, number = 5, return 24 * 5 = 120
 
 **_Best Use Case:_** Use `reduce` when you need to perform calculations or aggregations on an array and obtain a single value as the result. It is useful for tasks such as calculating the sum, finding the maximum or minimum value, concatenating strings, or grouping data.
 
-## 4. Sort
+## 5. Sort
 
 The `sort` method is used to arrange the elements of an array. It can arrange them in two ways: either using based on [UTF-16 code units values](https://asecuritysite.com/coding/asc2). or a custom sorting function that you can provide.
 
@@ -190,7 +190,7 @@ The use of custom sorting functions allows you to define complex sorting criteri
 
 **_Best Use Case:_** Use `sort` when you need to sort the elements of an array based on a specific criterion. It is useful for tasks such as arranging the elements of an array in alphabetical or numerical order, or sorting complex objects based on various properties.
 
-## 5. find
+## 6. find
 
 The `find` method returns the first element in an array that satisfies a given condition. It executes a provided callback function once for each element until it finds a match, then immediately returns the matched element. If no element matches the condition, it returns undefined. Here is the syntax:
 
@@ -227,7 +227,7 @@ console.log(bookWithMoreThan500Pages);
 // Output: undefined
 ```
 
-## 6. every
+## 7. every
 
 The `every` method tests whether all elements in an array pass a given condition. It executes a provided callback function once for each element in the array until it finds an element that doesn't satisfy the condition. If all elements pass the condition, it returns `true` otherwise, it returns `false`. Here is the syntax:
 
@@ -252,7 +252,7 @@ console.log(allNumbersEven);
 
 In this example, the `every` method is used to check if all numbers in the array are greater than `0` and if all numbers are even. The first callback `(number) => number > 0` checks if each number is greater than `0`. Since all numbers in the array satisfy this condition, the output is `true`. The second callback `(number) => number % 2 === 0` checks if each number is even. Since the array contains odd numbers as well, the output is `false`.
 
-## 7. some
+## 8. some
 
 The `some` method tests whether at least one element in the array satisfies a given condition. It executes a provided callback function once for each element in the array until it finds an element that satisfies the condition. If any element passes the condition, it returns `true` otherwise, it returns `false`. Here is the syntax:
 
@@ -277,7 +277,7 @@ console.log(hasNegativeNumber);
 
 In this example, the `some` method is used to check if the array contains at least one even number and if any number is negative. The first callback `(number) => number % 2 === 0` checks if any number is even. Since the array contains even numbers, the output is `true`. The second callback `(number) => number < 0` checks if any number is negative. Since all numbers are positive, the output is `false`.
 
-## 8. fill
+## 9. fill
 
 The `fill` method changes all elements in an array with a static value, starting from a specified start index (default 0) and ending at a specified end index (default array.length). It modifies the original array in place. Here is the syntax:
 
@@ -297,7 +297,7 @@ console.log(numbers);
 
 In this example, the `fill` method is used to change elements of the `numbers` array to the value `0` starting from index `2` (inclusive) and ending at index `4` (exclusive). As a result, the array is modified to `[1, 2, 0, 0, 5]`.
 
-## 9. Splice
+## 10. Splice
 
 The `splice` method changes the contents of an array by removing, replacing, or adding elements. It modifies the original array in place and returns an array containing the removed elements. If only one element is removed, an array of one element is returned. If no elements are removed, an empty array is returned. Here is the syntax:
 
@@ -336,5 +336,6 @@ Here is a summary of the methods covered:
 7. `every`: Tests whether all elements in an array pass a given condition.
 8. `some`: Tests whether at least one element in an array satisfies a given condition.
 9. `fill`: Changes all elements in an array with a static value within a specified range.
+10. `splice`: Changes the contents of an array by removing, replacing, or adding elements.
 
 These methods provide powerful functionality for working with arrays in JavaScript and can be applied in various use cases depending on the desired outcome.

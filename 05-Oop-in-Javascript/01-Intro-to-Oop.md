@@ -4,7 +4,7 @@ Object-Oriented Programming (OOP) is a powerful programming paradigm that allows
 
 ## Why do we need OOP?
 
-Lets say we want to create a simple application that manages list of users. The `users` should have a `name`, `email` , `age` and `greet` method that prints out a greeting message.
+Let's say we want to create a simple application that manages list of users. The `users` should have a `name`, `email` , `age` and `greet` method that prints out a greeting message.
 
 ```js
 const user1 = {

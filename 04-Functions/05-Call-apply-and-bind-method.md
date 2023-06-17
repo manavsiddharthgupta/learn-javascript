@@ -2,6 +2,8 @@
 
 The `call`, `apply`, and `bind` methods in JavaScript are used to manipulate the functions and to control the value of `this` within the function, regardless of how the function is originally defined. They are useful when you want to invoke a function in a specific context, **borrow methods from one object to use for another, or create function wrappers**.
 
+Learn more about the `this` keyword [here](./04-Function-inside-object.md#the-this-keyword).
+
 By using `call`, `apply`, and `bind`, you can explicitly define the `this` value inside a function, providing more flexibility and control over function execution in JavaScript.
 
 Let's take a an example why we need to use `call`, `apply`, and `bind` methods.

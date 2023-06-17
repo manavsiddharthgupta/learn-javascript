@@ -2,18 +2,48 @@
 
 **_Welcome to the Learn JavaScript repository! This repository is intended to help people learn and improve their JavaScript skills through interactive examples, tutorials, and exercises._**
 
+# Topics
+
+### Phase 1 :
+
+- [Introduction to JavaScript](./01-Introduction-to-Javascript/)
+  - [What is JavaScript?](./01-Introduction-to-Javascript/01-What-is-JavaScript.md)
+  - [Difference between JavaScript and other programming language](./01-Introduction-to-Javascript/02-Difference-between-javascript-and-other-programming-languages.md)
+  - [How javascript works?](./01-Introduction-to-Javascript/03-How-javascript-works.md)
+  - [Basic Syntax and data types](./01-Introduction-to-Javascript/04-Basic-Syntax-and-data-types.md)
+  - [Basic Operators](./01-Introduction-to-Javascript/05-Basic-Operators.md)
+  - [Control Flow](./01-Introduction-to-Javascript/06-Control-Flow.md)
+- [Arrays](./02-Arrays/)
+  - [Introduction to Arrays](./02-Arrays/01-Intro-to-arrays.md)
+  - [Array Methods](./02-Arrays/02-Arrays-methods.md)
+  - [Primitive vs Reference Types](./02-Arrays/03-Primitive-vs-reference-datatypes.md)
+- [Objects](./03-Objects/)
+  - [Introduction to Objects](./03-Objects/01-Intro-to-objects.md)
+  - [Dot vs Bracket](./03-Objects//02-Dot-vs-bracket.md)
+  - [How to iterate objects](./03-Objects/03-How-to-iterate-objects.md)
+  - [Other important object concepts](./03-Objects/04-Other-imp-objects-concepts.md)
+  - [Object and Arrays](./03-Objects/05-Objects-and-arrays.md)
+- [Functions](./04-Functions/)
+  - [Introduction to Functions](./04-Functions/01-Intro-to-functions.md)
+  - [More about functions](./04-Functions/02-More-about-function.md)
+  - [Important Array Methods](./04-Functions/03-Important-arrays-methods.md)
+  - [Function inside Objects](./04-Functions/04-Function-inside-object.md)
+  - [Call, Apply and Bind](./04-Functions/05-Call-apply-and-bind-method.md)
+
 # Table of Contents
 
 - [Learn JavaScript](#learn-javascript)
+- [Topics](#topics)
+  - [Phase 1 :](#phase-1-)
 - [Table of Contents](#table-of-contents)
+- [For Contributors](#for-contributors)
   - [Getting Started](#getting-started)
   - [How to contribute](#how-to-contribute)
   - [Here are some steps to create a JavaScript notes](#here-are-some-steps-to-create-a-javascript-notes)
   - [Here are some tips to make your notes engaging and fun:](#here-are-some-tips-to-make-your-notes-engaging-and-fun)
-  - [Topics to cover](#topics-to-cover)
-    - [Phase 1 :](#phase-1-)
-    - [Phase 2 :](#phase-2-)
   - [License](#license)
+
+# For Contributors
 
 ## Getting Started
 
@@ -52,21 +82,6 @@ To get started with learning JavaScript using this repository, you can follow th
 - Use a conversational tone to make your notes feel like a friendly conversation with the reader.
 
 Good luck, and have fun!
-
-## Topics to cover
-
-### Phase 1 :
-
-- Introduction to JavaScript
-- Variables and Data Types
-- Operators
-- Flow control statements (If/Else, Switch, Loops)
-
-### Phase 2 :
-
-- Arrays
-- Functions
-- Classes
 
 ## License
 

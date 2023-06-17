@@ -7,12 +7,12 @@
 ### Phase 1 :
 
 - [Introduction to JavaScript](./01-Introduction-to-Javascript/)
-  - [What is JavaScript?](./01-Introduction-to-Javascript/01-What-is-JavaScript.md)
+  - [What is JavaScript?](./01-Introduction-to-Javascript/01-What-is-javaScript.md)
   - [Difference between JavaScript and other programming language](./01-Introduction-to-Javascript/02-Difference-between-javascript-and-other-programming-languages.md)
   - [How javascript works?](./01-Introduction-to-Javascript/03-How-javascript-works.md)
-  - [Basic Syntax and data types](./01-Introduction-to-Javascript/04-Basic-Syntax-and-data-types.md)
-  - [Basic Operators](./01-Introduction-to-Javascript/05-Basic-Operators.md)
-  - [Control Flow](./01-Introduction-to-Javascript/06-Control-Flow.md)
+  - [Basic Syntax and data types](./01-Introduction-to-Javascript/04-Basic-syntax-and-data-types.md)
+  - [Basic Operators](./01-Introduction-to-Javascript/05-Basic-operators.md)
+  - [Control Flow](./01-Introduction-to-Javascript/06-Control-flow.md)
 - [Arrays](./02-Arrays/)
   - [Introduction to Arrays](./02-Arrays/01-Intro-to-arrays.md)
   - [Array Methods](./02-Arrays/02-Arrays-methods.md)

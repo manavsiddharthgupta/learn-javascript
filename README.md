@@ -7,7 +7,7 @@
 ### Phase 1 :
 
 - [Introduction to JavaScript](./01-Introduction-to-Javascript/)
-  - [What is JavaScript?](./01-Introduction-to-Javascript/01-What-is-javaScript.md)
+  - [What is JavaScript?](./01-Introduction-to-Javascript/01-What-is-javascript.md)
   - [Difference between JavaScript and other programming language](./01-Introduction-to-Javascript/02-Difference-between-javascript-and-other-programming-languages.md)
   - [How javascript works?](./01-Introduction-to-Javascript/03-How-javascript-works.md)
   - [Basic Syntax and data types](./01-Introduction-to-Javascript/04-Basic-syntax-and-data-types.md)

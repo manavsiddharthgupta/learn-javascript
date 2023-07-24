@@ -115,4 +115,10 @@ console.log(`${firstName} ${lastName}`);
 
 is returned from the function `printName`, it will also carry the reference of the variables `firstName` and `lastName` defined in the outer function `printName`. This is called `closure`.
 
-That's why when we call the function `printFullName`, it prints the full name.
+Now, Let's execute the above code line by line.
+
+```
+Line 1 - John Doe (printed)
+```
+
+Now, `printFullName` function will get popped from the call stack. and Global execution context will also get popped from the call stack.
